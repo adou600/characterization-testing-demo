@@ -41,7 +41,7 @@ class PatternTestSolution {
     }
 
     @Test
-    public void x() {
+    public void removesEnclosingElement() {
         //When
         String formatted = Pattern.formatText("<h>test</h>");
 
